@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	{% load static %}
+	<link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+	{% block header %}
+		<div id="header" class="border-green">
+			<div id="miniheader" class="border-green">vertalingen Redacties Teksten Correcties</div>
+			<a href=""><div id="logo" class="border-grey"><img src=""></div></a>
+			<div id="headermenu">
+				<a href=""><div class="headermenubtn border-grey"> Home </div></a>
+				<a href=""><div class="headermenubtn border-grey"> Contact </div></a>
+				<a href=""><div class="headermenubtn border-grey"> Wie zijn wij </div></a>
+				<a href=""><div class="headermenubtn border-grey"> Werkwijze </div></a>
+				<a href=""><div class="headermenubtn border-grey"> Portfolio </div></a>
+			</div>
+		</div>
+	{% endblock %}
+
+	{% block content %}
+	{% endblock %}
+
+	{% block footer %}
+		<div id="footer">
+			<div class="footerblock"></div>
+			<div class="footerblock"></div>
+			<div class="footerblock"></div>
+			<div class="footerblock"></div>
+		</div>
+	{% endblock %}
+</body>
+</html>
