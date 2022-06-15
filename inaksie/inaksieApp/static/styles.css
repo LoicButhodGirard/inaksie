@@ -7,6 +7,24 @@ a{
 	color: inherit;
 }
 
+#headermenu{
+	overflow: auto;
+}
+
+.text-green{
+	color: #C2D56F;
+}
+
+.text-blue{
+	color: #2885D2;
+}
+
+.intro-content h3{
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
 .border-green{
 	border-style: solid;
 	border-color: #C2D56F;
@@ -19,18 +37,88 @@ a{
 	border-width: 1px;
 }
 
+.contentblock{
+	background-color: #F9F9F9;
+}
+
+.headermenubtn{
+	color: #2885D2;
+	background-color: #fff;
+}
+
+#footer{
+	background-color: #F9F9F9;
+}
+
+#minifooter{
+	background-color: #F9F9F9;
+}
+
+#header{
+	background-color: #F9F9F9;
+}
+
+#miniheader{
+	background-color: #fff
+}
+
+#logo{
+	background-color: #fff;
+}
+
+#contactblock{
+	background-color: #2885D2;
+	color: #fff;
+}
+
+.contact-content{
+	background-color: #F9F9F9;
+}
+
+.introcontent{
+	background-color: #F9F9F9;
+}
+
+@media only screen and (max-width: 595px) {
+
+}
+
+@media only screen and (min-width: 600px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 889px) {
+
+}
+
+@media only screen and (min-width: 1200px){
+
+#logo img{
+	width: 80%;
+	margin-top: 15%;
+}
+
+#image{
+	position: relative;
+	z-index: 0;
+	background-image: url('images/ffff.jpg');
+	background-size: cover;
+	height: 500px;
+}
+
 .headermenubtn{
 	margin: 10px;
 	padding: 5px;
 	float: left;
 	width: 15%;
 	font-size: 125%;
-	color: #2885D2;
-	background-color: #fff;
 }
 
 .contentblock{
-	background-color: #F9F9F9;
 	width: 50%;
 	margin-top: 25px;
 	padding: 0;
@@ -68,23 +156,50 @@ a{
 	float: right;
 }
 
+#footer{
+	margin-top: 5%;
+	float: left;
+	width: 100%;
+}
+
+.footerblock{
+	padding-top: 1%;
+	padding-bottom: 1%;
+	width: 25%;
+	float: left;
+}
+
+.footercontent{
+	padding-left: 25%;
+	padding-top: 10%;
+	padding-bottom: 10%; 
+}
+
+#minifooter{
+	float: left;
+	width: 100%;
+}
+
+#minifootercontent{
+	text-align: center;
+	padding: 3px;
+}
+
 #header{
 	text-align: center;
 	width: 100%;
-	background-color: #F9F9F9;
 }
 
 #miniheader{
-	background-color: #fff
 	margin: 0px;
 	padding: 5px;
 	font-size: 110%;
-	z-index: 1;
 }
 
-#headermenu{
-	overflow: auto;
+#miniheader div{
+	display: inline;
 }
+
 
 #logo{
 	float: left;
@@ -94,5 +209,32 @@ a{
 	padding-bottom: 8%;
 	margin: 5px;
 	margin-top: -15px;
-	z-index: 0;
+	z-index: 1;
+	overflow: hidden;
+	position: relative;
+}
+
+#contactblock{
+	padding: 1%;
+	width: 80%;
+	margin-top: 2%;
+	margin-left: 10%;
+}
+
+.contact-content{
+	margin:0;
+	width: 30%;
+	float: left;
+	padding: 3%;
+	margin-left: 3%;
+	margin-top: 3%;
+}
+
+.intro-content{
+	margin-top: 1%;
+	padding: 1%;
+	width: 80%;
+	margin-left: 20%;
+}
+
 }

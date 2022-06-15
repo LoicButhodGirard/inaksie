@@ -3,13 +3,13 @@
 <head>
 	<title></title>
 	{% load static %}
-	<link rel="stylesheet" href="{% static 'styles.css' %}?version=2">
+	<link rel="stylesheet" href="{% static 'styles.css' %}?version=11">
 </head>
 <body>
 	{% block header %}
 		<div id="header" class="border-green">
-			<div id="miniheader" class="border-green">vertalingen Redacties Teksten Correcties</div>
-			<a href="../"><div id="logo" class="border-grey"><img src=""></div></a>
+			<div id="miniheader" class="border-green"><div class="text-green">vertalingen</div> <div class="text-blue">Redacties</div> <div class="text-green">Teksten</div> <div class="text-blue">Correcties</div></div>
+			<a href="../"><div id="logo" class="border-grey"><img src="{% static 'images/logo.jpg' %}"></div></a>
 			<div id="headermenu">
 				<a href="../"><div class="headermenubtn border-grey"> Home </div></a>
 				<a href="../contact"><div class="headermenubtn border-grey"> Contact </div></a>
@@ -24,12 +24,13 @@
 	{% endblock %}
 
 	{% block footer %}
-		<div id="footer">
-			<div class="footerblock"></div>
-			<div class="footerblock"></div>
-			<div class="footerblock"></div>
-			<div class="footerblock"></div>
+		<div id="footer" class="border-green">
+			<div class="footerblock"><div class="footercontent text-blue">inAksie v.o.f.<br>Boeklanderweg 23<br> 7341 PK  APELDOORN<br>  Tel: 06-18684898<br> KvK: 8110.883<br>BTW: 8110.86.355.B.01</div></div>
+			<div class="footerblock"><div class="footercontent text-green">Kinderboeken<br> Sportboeken<br> Hobbyboeken<br> Reisboeken<br> Kookboeken<br></div></div>
+			<div class="footerblock"><div class="footercontent text-blue">Dieetboeken<br> Biografieën<br> Fictie<br> Lifestyleboeken<br></div></div>
+			<div class="footerblock"><div class="footercontent"></div></div>
 		</div>
+		<div id="minifooter"><div id="minifootercontent">Algemene Voorwaarden | Copyright © 2020. All Rights Reserved.</div></div>
 	{% endblock %}
 </body>
 </html>
