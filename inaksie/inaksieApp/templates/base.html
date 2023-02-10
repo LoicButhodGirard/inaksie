@@ -3,7 +3,7 @@
 <head>
 	<title></title>
 	{% load static %}
-	<link rel="stylesheet" href="{% static 'styles.css' %}?version=14">
+	<link rel="stylesheet" href="{% static 'styles.css' %}?version=16">
 </head>
 <body>
 	{% block header %}
@@ -19,9 +19,10 @@
 			</div>
 		</div>
 	{% endblock %}
-
+	<div id="fl-content">
 	{% block content %}
 	{% endblock %}
+	</div>
 
 	{% block footer %}
 		<div id="footer" class="border-green">

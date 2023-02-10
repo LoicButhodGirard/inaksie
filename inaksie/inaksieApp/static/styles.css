@@ -2,7 +2,6 @@ body{
 	margin: 0px;
 	width: 100%;
 }
-
 a{
 	text-decoration: none;
 	color: inherit;
@@ -11,9 +10,9 @@ a{
 #headermenu{
 	overflow: auto;
 }
-
+/* old green #C2D56F */
 .text-green{
-	color: #C2D56F;
+	color: #657811;
 }
 
 .text-blue{
@@ -28,7 +27,7 @@ a{
 
 .border-green{
 	border-style: solid;
-	border-color: #C2D56F;
+	border-color: #657811;
 	border-width: 1px;
 }
 
@@ -248,6 +247,26 @@ a{
 	content: right;
 }
 
+.halfblocks{
+	float: left;
+	margin-left: 15%;
+	margin-top: 5%;
+}
+
+.contenthalfblock{
+	float: left;
+	width: 35%;
+	margin-top: 25px;
+	margin-left: 5%;
+	padding: 0;
+	content: right;
+}
+
+.contenthalfblock img{
+	float: right;
+	display: block;
+}
+
 .contentblock-left{
 	float: left;
 	padding-left: 15%;
@@ -258,8 +277,16 @@ a{
 	padding-right: 15%;
 }
 
-.text-blurb{
+.contentblock .text-blurb{
 	width: 75%;
+	float: left;
+	margin-top: 2%;
+	margin-bottom: 3%;
+	margin-left: 3%;
+}
+
+.contenthalfblock .text-blurb{
+	width: 50%;
 	float: left;
 	margin-top: 2%;
 	margin-bottom: 3%;
@@ -372,6 +399,10 @@ a{
 
 #intro-pict{
 	width: 15%;
+}
+
+#intro-pict img{
+	width: 100%;
 }
 
 #intro-experience{
