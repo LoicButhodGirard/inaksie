@@ -356,10 +356,31 @@ a{
 }
 
 .intro-content{
+	background-color: #F9F9F9;
 	margin-top: 1%;
 	padding: 1%;
 	width: 80%;
-	margin-left: 20%;
+	margin-left: 15%;
+	float: left;
+}
+
+.intro-subcontent{
+	float: left;
+	margin-right: 1%;
+	padding: 1%;
+}
+
+#intro-pict{
+	width: 15%;
+}
+
+#intro-experience{
+	width: 15%;
+}
+
+#intro-text{
+	float: left;
+	width: 50%;
 }
 
 }
