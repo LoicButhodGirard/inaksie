@@ -3,12 +3,13 @@
 <head>
 	<title></title>
 	{% load static %}
-	<link rel="stylesheet" href="{% static 'styles.css' %}?version=18">
+	<link href="https://fonts.cdnfonts.com/css/papyrus" rel="stylesheet">
+	<link rel="stylesheet" href="{% static 'styles.css' %}?version=19">
 </head>
 <body>
 	{% block header %}
 		<div id="header" class="border-green">
-			<div id="miniheader" class="border-green"><div class="text-green">vertalingen</div> <div class="text-blue">Redacties</div> <div class="text-green">Teksten</div> <div class="text-blue">Correcties</div></div>
+			<div style="padding-bottom: 0px;" id="miniheader" class="border-green"><b><div class="text-green">Vertalingen</div> <div class="text-blue">Redacties</div> <div class="text-green">Teksten</div> <div class="text-blue">Correcties</div></b></div>
 			<a href="../"><div id="logo" class="border-grey"><img src="{% static 'images/logo.jpg' %}"></div></a>
 			<div id="headermenu">
 				<a href="../"><div class="headermenubtn border-grey"> Home </div></a>

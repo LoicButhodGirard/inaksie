@@ -59,7 +59,16 @@ a{
 }
 
 #miniheader{
-	background-color: #fff
+	background-color: #fff;
+	padding-bottom: 0;
+}
+
+@import url('https://fonts.cdnfonts.com/css/papyrus');
+#miniheader b div{
+	letter-spacing: 1px;
+	margin-left: 10px;
+	font-family: 'Papyrus', sans-serif;
+	font-size: 140%;
 }
 
 #logo{
@@ -181,7 +190,7 @@ a{
 	font-size: 110%;
 }
 
-#miniheader div{
+#miniheader b div{
 	display: inline;
 }
 
