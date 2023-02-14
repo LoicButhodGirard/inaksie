@@ -206,6 +206,14 @@ a{
 	text-align: center;
 }
 
+.portfoliotext{
+	width: 20%;
+}
+
+.portfoliosubcontent{
+	float: left;
+}
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -254,6 +262,7 @@ a{
 }
 
 .contenthalfblock{
+	background-color: #F9F9F9;
 	float: left;
 	width: 35%;
 	margin-top: 25px;
@@ -264,7 +273,8 @@ a{
 
 .contenthalfblock img{
 	float: right;
-	display: block;
+	height: 100%;
+	height: 180px;
 }
 
 .contentblock-left{
