@@ -4,7 +4,7 @@
 	<title></title>
 	{% load static %}
 	<link href="https://fonts.cdnfonts.com/css/papyrus" rel="stylesheet">
-	<link rel="stylesheet" href="{% static 'styles.css' %}?version=19">
+	<link rel="stylesheet" href="{% static 'styles.css' %}?version=21">
 </head>
 <body>
 	{% block header %}
@@ -26,12 +26,23 @@
 
 	{% block footer %}
 		<div id="footer" class="border-green">
-			<div class="footerblock"><div class="footercontent text-blue">inAksie v.o.f.<br>Boeklanderweg 23<br> 7341 PK  APELDOORN<br>  Tel: 06-18684898<br> KvK: 8110.883<br>BTW: 8110.86.355.B.01</div></div>
-			<div class="footerblock"><div class="footercontent text-green">Kinderboeken<br> Sportboeken<br> Hobbyboeken<br> Reisboeken<br> Kookboeken<br></div></div>
-			<div class="footerblock"><div class="footercontent text-blue">Dieetboeken<br> Biografieën<br> Fictie<br> Lifestyleboeken<br></div></div>
+			<div class="footerblock"><div class="footercontent text-blue">inAksie v.o.f.<br>Broeklanderweg 23<br> 7341 PK  APELDOORN<br>  Tel: 06-18684898<br> KvK: 8110.883<br>BTW: 8110.86.355.B.01</div></div>
+			<div class="footerblock"><div class="footercontent text-green">
+				<a href="../portfolio#portfolio-kinderboeken">Kinderboeken</a><br> 
+				<a href="../portfolio#portfolio-sportboeken">Sportboeken</a><br> 
+				<a href="../portfolio#portfolio-kookboeken">Hobbyboeken</a><br> 
+				<a href="../portfolio#portfolio-reisboeken">Reisboeken</a><br> 
+				<a href="../portfolio#portfolio-kookboeken">Kookboeken</a><br>
+			</div></div>
+			<div class="footerblock"><div class="footercontent text-blue">
+				<a href="../portfolio#portfolio-kookboeken">Dieetboeken</a><br> 
+				<a href="../portfolio#portfolio-biografieen">Biografieën</a><br> 
+				<a href="../portfolio#portfolio-kookboeken">Fictie</a><br> 
+				<a href="../portfolio#portfolio-lifestyle">Lifestyleboeken</a><br>
+			</div></div>
 			<div class="footerblock"><div class="footercontent"></div></div>
 		</div>
-		<div id="minifooter"><div id="minifootercontent">Algemene Voorwaarden | Copyright © 2020. All Rights Reserved.</div></div>
+		<div id="minifooter"><div id="minifootercontent">Copyright © 2020. All Rights Reserved.</div></div>
 	{% endblock %}
 </body>
 </html>
